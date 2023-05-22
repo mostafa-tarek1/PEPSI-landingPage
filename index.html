@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- normalize cdn -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- page icon  -->
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon" />
+    <title>PEPSI</title>
+  </head>
+  <body>
+    <!-- main container  -->
+    <section class="sec">
+      <!-- start nav  -->
+      <header>
+        <a href=""><img src="image/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li id="none"><a href="#">What's New</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </header>
+      <!-- end nav  -->
+
+      <!-- start all content -->
+      <div class="content">
+        <!-- start text  -->
+        <div class="text">
+          <h2>that's what <br /><span>i like</span></h2>
+          <p>
+            Experience the world of refreshing taste with Pepsi <br />
+            Enjoy the taste of freedom and fun with Pepsi today!
+          </p>
+          <a href="#">VIEW PRODUCTS</a>
+        </div>
+        <!-- end text  -->
+
+        <!-- start main image  -->
+        <div class="image">
+          <img src="image/pepsi001.png" class="pepsi" />
+        </div>
+      </div>
+      <!-- end main image  -->
+
+      <!-- end all content -->
+
+      <!-- start slider image  -->
+      <ul class="thumb">
+        <li>
+          <img
+            src="image/pepsi001.png"
+            onclick="imgSlider('image/pepsi001.png');changeBgColor('#0062be')"
+          />
+        </li>
+        <li>
+          <img
+            src="image/pepsi002.png"
+            onclick="imgSlider('image/pepsi002.png');changeBgColor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="image/pepsi003.png"
+            onclick="imgSlider('image/pepsi003.png');changeBgColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+      <!-- end slider image  -->
+
+      <!-- start social icon  -->
+      <ul class="social">
+        <li>
+          <a href="#"><img src="image/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/instagram.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/twitter.png" /></a>
+        </li>
+      </ul>
+      <!-- end social icon  -->
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
